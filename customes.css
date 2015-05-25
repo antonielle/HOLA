@@ -1,0 +1,149 @@
+.navbar-custom1 .navbar-custom3 {
+	background: rgba(209, 209, 209, 1);
+	background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+	background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+}
+
+.navbar-custom2 {
+	background: rgba(141, 190, 35, 1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(141, 190, 35, 1)), color-stop(50%, rgba(141, 190, 35, 1)), color-stop(100%, rgba(141, 190, 35, 1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: radial-gradient(ellipse at center, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8dbe23', endColorstr='#8dbe23', GradientType=1);
+}
+
+<style> h3,
+h4,
+h5 {
+	text-align: center;
+}
+
+body {
+	color: green;
+}
+
+.parrafo {
+	background-color: #ededed;
+	border-color: #ededed;
+	margin-top: 10px;
+	margin-botton: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: justify;
+}
+
+.navbar-custom1 {
+	background: rgba(141, 190, 35, 1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(141, 190, 35, 1)), color-stop(50%, rgba(141, 190, 35, 1)), color-stop(100%, rgba(141, 190, 35, 1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: radial-gradient(ellipse at center, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8dbe23', endColorstr='#8dbe23', GradientType=1);
+}
+
+.general {
+	background: rgba(141, 190, 35, 1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(141, 190, 35, 1)), color-stop(50%, rgba(141, 190, 35, 1)), color-stop(100%, rgba(141, 190, 35, 1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: radial-gradient(ellipse at center, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8dbe23', endColorstr='#8dbe23', GradientType=1);
+}
+
+.navbar-custom2 {
+	background: rgba(209, 209, 209, 1);
+	background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+	background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+}
+
+.fiscales {
+	background: rgba(209, 209, 209, 1);
+	background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+	background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+}
+
+.navbar-custom3 {
+	background: rgba(141, 190, 35, 1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(141, 190, 35, 1)), color-stop(50%, rgba(141, 190, 35, 1)), color-stop(100%, rgba(141, 190, 35, 1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: radial-gradient(ellipse at center, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8dbe23', endColorstr='#8dbe23', GradientType=1);
+}
+
+.notariales {
+	background: rgba(141, 190, 35, 1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(141, 190, 35, 1)), color-stop(50%, rgba(141, 190, 35, 1)), color-stop(100%, rgba(141, 190, 35, 1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	background: radial-gradient(ellipse at center, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8dbe23', endColorstr='#8dbe23', GradientType=1);
+}
+
+.navbar-custom4 {
+	background: rgba(209, 209, 209, 1);
+	background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+	background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+}
+
+.socios {
+	background: rgba(209, 209, 209, 1);
+	background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+	background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+}
+
+colores {
+	color: white;
+}
+
+ul li a:visited {
+	color: green;
+}
+
+.nav-tabs.nav-justified>.active>a,
+.nav-tabs.nav-justified>.active>a:focus,
+.nav-tabs.nav-justified>.active>a:hover {
+	color: green;
+}
+
+.nav-tabs.nav-justified>li>a {
+	color: #fff;
+}
+
+</style>

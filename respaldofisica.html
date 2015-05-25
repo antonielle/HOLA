@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FisicaInscripcion</title>
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootsrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="https://maxcdn.bootsrapcdn.com/bootsrap/3.3.4/js/bootstrap.min.js"></script>-->
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen ">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="css/js/bootstrap.min.js"></script>
+	<style>
+		<!--h3,
+		h4,
+		h5 {
+			text-align: center;
+		}
+		
+		body {
+			color: green;
+		}
+		
+		.parrafo {
+			background-color: #ededed;
+			border-color: #ededed;
+			margin-top: 10px;
+			margin-botton: 10px;
+			margin-left: 5px;
+			margin-right: 5px;
+			text-align: justify;
+		}
+		
+		.navbar-custom1 {
+			background: rgba(209, 209, 209, 1);
+			background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+			background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+		}
+		
+		.general {
+			background: rgba(209, 209, 209, 1);
+			background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+			background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+		}
+		
+		.navbar-custom2 {
+			background: rgba(141, 190, 35, 1);
+			background: -moz-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(141, 190, 35, 1)), color-stop(50%, rgba(141, 190, 35, 1)), color-stop(100%, rgba(141, 190, 35, 1)));
+			background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			background: -o-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			background: -ms-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			background: radial-gradient(ellipse at center, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8dbe23', endColorstr='#8dbe23', GradientType=1);
+		}
+		
+		.legal {
+			background: rgba(141, 190, 35, 1);
+			background: -moz-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(141, 190, 35, 1)), color-stop(50%, rgba(141, 190, 35, 1)), color-stop(100%, rgba(141, 190, 35, 1)));
+			background: -webkit-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			background: -o-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			background: -ms-radial-gradient(center, ellipse cover, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			background: radial-gradient(ellipse at center, rgba(141, 190, 35, 1) 0%, rgba(141, 190, 35, 1) 50%, rgba(141, 190, 35, 1) 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8dbe23', endColorstr='#8dbe23', GradientType=1);
+		}
+		
+		.navbar-custom5 {
+			background: rgba(209, 209, 209, 1);
+			background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+			background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+		}
+		
+		.fiscal {
+			background: rgba(209, 209, 209, 1);
+			background: -moz-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(209, 209, 209, 1)), color-stop(99%, rgba(226, 226, 226, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+			background: -webkit-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -o-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: -ms-linear-gradient(left, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			background: linear-gradient(to right, rgba(209, 209, 209, 1) 0%, rgba(209, 209, 209, 1) 99%, rgba(226, 226, 226, 1) 99%, rgba(254, 254, 254, 1) 100%);
+			filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1);
+		}
+		
+		colores {
+			color: brown;
+		}
+		
+		ul li a:visited {
+			color: green;
+		}
+		
+		.color>.active>a {
+			color: deeppink;
+		}
+		
+		.nav-tabs.nav-justified>.active>a,
+		.nav-tabs.nav-justified>.active>a:focus,
+		.nav-tabs.nav-justified>.active>a:hover {
+			color: green;
+		}
+		
+		.nav-tabs.nav-justified>li>a {
+			color: white;
+		}
+		
+		-->
+	</style>
+
+	<body>
+
+		<h4> INSCRIPCIÓN DE PROVEEDORES </h4>
+		<h4> PERSONA FÍSICA </h4>
+		<div class="container">
+
+			<p class="parrafo"> <small>Con fundamento en lo dispuesto por el Art. 26 de la Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público del Estado de Hidalgo y el Art. 18 del Reglamento de la misma Ley, me permito solicitar a usted, de la manera más atenta, tenga a bien, inscribir al suscrito (a) en el Padrón de Proveedores de la Administración Publica Estatal, anexando para tal efecto los documentos establecidos en los dispositivos indicados y proporcionando la información que a continuación se menciona:  </small>
+			</p>
+		</div>
+
+		<!--Nota: Los campos necesarios estan marcados con * -->
+		<div class="container ">
+
+			<ul class="nav nav-tabs nav-justified">
+				<li class="active"><a href="#tab1" data-toggle="tab" class="navbar-custom1"> Generales </a>
+				</li>
+				<li><a href="#tab4" data-toggle="tab" class="navbar-custom2">Legales</a>
+				</li>
+				<li><a href="#tab5" data-toggle="tab" class="navbar-custom5"> Fiscales </a>
+				</li>
+			</ul>
+
+			<!--DATOS GENERALES-->
+			<div class="tab-content">
+				<div class="tab-pane fade active in" id="tab1">
+					<div class="row">
+						<div class="col-lg-offset-3">
+							<div class="col-lg-8 general">
+								<div class="form-group col-lg-12">
+									<label>Persona Física </label>
+									<input type="" name="" class="form-control" id="" value="" placeholder="Nombre y apellidos">
+								</div>
+								<div class="form-group col-lg-6">
+									<label>R.F.C. </label>
+									<input type="" name="" class="form-control" id="" value="" placeholder="RULA760605M65">
+								</div>
+								<div class="form-group col-lg-6">
+									<label>E-mail </label>
+									<input type="email" name="" class="form-control" id="" value="" placeholder="antonieta@hidalgo.gob.mx">
+								</div>
+								<div class="form-group col-lg-12">
+									<label>Domicilio Fiscal</label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label>Ciudad</label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> Estado </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> C.P. </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> Teléfono </label>
+									<input type="" name="" class="form-control" id="" value="" placeholder="(999)9999-99-99">
+								</div>
+								<div class="form-group col-lg-12">
+									<label> Domicilio Pachuca </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> Teléfono Pachuca </label>
+									<input type="" name="" class="form-control" id="" value="" placeholder="(999)9999-99-99">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> Fax </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!--DATOS LEGALES-->
+				<div class="tab-pane fade" id="tab4">
+					<div class="row">
+						<div class="col-lg-offset-3">
+							<div class="col-lg-8 legal">
+								<div class="form-group col-lg-12">
+									<label> Lugar de Nacimiento </label>
+									<input type="" name=" " class="form-control" id=" " value=" ">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> No. Acta de Nacimiento </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> Fecha de Nacimiento </label>
+									<input type="date" name="" class="form-control" id="" value="" placeholder=" ">
+								</div>
+								<div class="form-group col-lg-6">
+									<label>No. INFONAVIT </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label>No. IMSS</label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!--DATOS FISCALES-->
+
+				<div class="tab-pane fade" id="tab5">
+					<div class="row">
+						<div class="col-lg-offset-3">
+							<div class="col-lg-8 fiscal">
+								<div class="form-group col-lg-12">
+									<label> Nombre del Apoderado Legal </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> R.F.C. </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-6">
+									<label> No. de Acta que otorga el Poder </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-12">
+									<label> Nombre del Responsable Técnico </label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+								<div class="form-group col-lg-12">
+									<label>No. de Cédula Profesional</label>
+									<input type="" name="" class="form-control" id="" value="">
+								</div>
+
+								<h4><strong>De los Bienes y Servicios </strong></h4>
+								<p> Bienes / Servicios que solicita, le sean autorizados para proveer al Gobierno del Estado de Hidalgo. </p>
+								<textarea class="form-control" rows="5">
+								</textarea>
+								<p> Observaciones y Aclaraciones </p>
+								<textarea class="form-control" rows="4"></textarea>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>-->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+</head>
+
+</html>
